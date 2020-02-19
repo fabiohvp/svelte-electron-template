@@ -19,7 +19,7 @@ function createWindow(hash) {
 
 	_window.loadURL(
 		url.format({
-			pathname: path.join(__dirname, "../modules/public/index.html"),
+			pathname: path.join(__dirname, "../svelte/public/index.html"),
 			protocol: "file:",
 			slashes: true,
 			hash

@@ -22,9 +22,9 @@ module.exports = (env, argv) => {
       chunkFilename: "[name].[id].js"
     },
     resolve: {
-      alias: {
-        svelte: path.resolve("node_modules", "svelte")
-      },
+    //   alias: {
+    //     svelte: path.resolve("node_modules", "svelte")
+    //   },
       extensions: [".mjs", ".js", ".svelte", ".html"],
       mainFields: ["svelte", "browser", "module", "main"]
     },
