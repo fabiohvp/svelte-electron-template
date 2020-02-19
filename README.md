@@ -1,0 +1,1 @@
+Simple template for electron using svelte as front end.

@@ -1,0 +1,32 @@
+{
+  "name": "svelte-electron-template",
+  "description": "Simple electron template integrated with svelte",
+  "author": "fabiohvp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "set NODE_ENV=dev&& electron .",
+    "dist": "set NODE_ENV=prod&& electron-builder"
+  },
+  "build": {
+    "appId": "com.fabiohvp.svelte-electron-template",
+    "win": {
+      "icon": "assets/icons/favicon.ico"
+    },
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "electron": "^6.0.8",
+    "electron-builder": "^21.2.0",
+    "electron-packager": "^14.0.6",
+    "electron-rebuild": "^1.8.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "electron-log": "^3.0.9"
+  }
+}
